@@ -1,0 +1,41 @@
+body {
+    background:#DDDDDD;	
+}
+.scoreboard{
+    background:black;
+    color:white;
+    border-radius:10px;
+    width:300px;
+    margin:0 auto;
+}
+.header{
+    padding:5px;
+}
+h1{
+    font-size:25px;
+    text-align:center;
+}
+.players{
+    background:#3A3838;
+}
+.player-name, .player-score, .counter-action, .counter-score{
+    display:inline-block;
+}
+
+.player-name{
+   width:49%; 
+   
+}
+.player-score{
+    width:49%;
+    text-align:right;
+}
+    .decrement{
+        background:#E65353;
+    }
+    .increment{
+        background:#88DD7A;
+    }
+    .counter-score{
+        padding: 0 5px;
+    }
